@@ -464,7 +464,16 @@
                 <jdbc.username>postgres</jdbc.username>
                 <jdbc.password>petclinic</jdbc.password>
             </properties>
-            <dependencies>
+           <distributionManagement>
+  <repository>
+    <id>naveen_snapshot</id>
+    <url>http://192.168.33.10:8081/nexus/content/repositories/naveen_snapshot</url>
+  </repository>
+</distributionManagement> 
+            
+            
+            
+        <dependencies>
                 <dependency>
                     <groupId>org.postgresql</groupId>
                     <artifactId>postgresql</artifactId>
