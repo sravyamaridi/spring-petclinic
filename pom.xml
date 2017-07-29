@@ -464,13 +464,13 @@
                 <jdbc.username>postgres</jdbc.username>
                 <jdbc.password>petclinic</jdbc.password>
             </properties>
-    
-           <distributionManagement>
-               <repository>
-                 <id>nexus</id>
-                    <url>http://192.168.33.10:8081/nexus/content/repositories/naveen_snapshot</url>
-               </repository>
-           </distributionManagement> 
+            
+            <distributionManagement>
+                <snapshotRepository>
+                    <id>gameoflife</id>
+                          <url>http://192.168.33.10:8081/nexus/content/repositories/gameoflife</url>
+                </snapshotRepository>
+            </distributionManagement>
             
             
         <dependencies>
