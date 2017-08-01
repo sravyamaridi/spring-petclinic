@@ -467,7 +467,7 @@
             
             <distributionManagement>
                 <snapshotRepository>
-                    <id>spring_pet_clinic</id>
+                    <id>spring_petclinic</id>
                           <url>http://192.168.33.77:8081/repository/Naveen_kumar/</url>
                 </snapshotRepository>
             </distributionManagement>
