@@ -467,8 +467,8 @@
             
             <distributionManagement>
                 <snapshotRepository>
-                    <id>gameoflife</id>
-                          <url>http://192.168.33.10:8081/nexus/content/repositories/gameoflife</url>
+                    <id>spring_pet_clinic</id>
+                          <url>http://192.168.33.77:8081/repository/Naveen_kumar/</url>
                 </snapshotRepository>
             </distributionManagement>
             
